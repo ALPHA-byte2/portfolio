@@ -22,7 +22,7 @@
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/ALPHA-bytes2/Portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [ALPHA-byte2]([https://github.com/ALPHA-bytes2](https://github.com/ALPHA-byte2)/Portfolio). Thanks!
 
 This project was built using these technologies.
 
