@@ -15,73 +15,118 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          My Recent <strong className="purple">Works</strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Here are a few projects I've worked on.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-          
+              title="Personal Portfolio"
+              description={
+                <div>
+                  My Personal Portfolio is a well-crafted website designed to showcase my professional profile, skills, and projects. It features a clean and intuitive layout with four main sections:
+                  <br />
+                  <br />
+                  <strong>Home Page:</strong> An engaging introduction to who I am, highlighting key aspects of my background and expertise.
+                  <br />
+                  <strong>About:</strong> A detailed description of my journey, skills, and experiences.
+                  <br />
+                  <strong>Projects:</strong> A showcase of my recent work and achievements, demonstrating my technical abilities and project involvement.
+                  <br />
+                  <strong>Resume:</strong> An online version of my resume, providing a comprehensive overview of my qualifications and career history.
+                  <br />
+                  <br />
+                  <strong>Technologies Used:</strong>
+                  <ul>
+                    <li><u>Frontend:</u> JavaScript, React</li>
+                    <li><u>Styling:</u> CSS</li>
+                  </ul>
+                  The portfolio is designed to effectively present my professional profile and make a strong impression on visitors.
+                </div>
+              }
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={chatify}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-    
+              title="Integrated Hospital Management System"
+              description={
+                <div>
+                  The Integrated Hospital Management System enhances communication and collaboration among hospitals. It enables seamless sharing of doctors' expertise and electronic transfer of patient records, eliminating paper-based processes.
+                  <br />
+                  <br />
+                  <strong>Key Features:</strong>
+                  <ul>
+                    <li>Cross-Hospital Communication: Efficient collaboration and sharing of specialized doctors.</li>
+                    <li>Electronic Patient Records: Accurate and streamlined transfer of medical records.</li>
+                    <li>Paperless Operations: Digital solutions replace traditional paper methods.</li>
+                  </ul>
+                  <strong>Technologies Used:</strong>
+                  <ul>
+                    <li><u>Frontend:</u> HTML, CSS, JavaScript, React.js</li>
+                    <li><u>Backend:</u> PHP</li>
+                  </ul>
+                  The system modernizes hospital management, improving coordination and patient care.
+                </div>
+              }
+            />
+          </Col>
+
+  
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={chatify}
+              isBlog={false}
+              title="Vehicle Tracking IoT Device"
+              description={
+                <div>
+                  The Vehicle Tracking IoT Device monitors vehicle movements using GPS and IoT technology, sending coordinates every 10 minutes. Integrated with Google Maps, it provides real-time tracking and distance calculation.
+                  <br />
+                  <br />
+                  <strong>Key Features:</strong>
+                  <ul>
+                    <li>Real-Time Tracking: GPS coordinates sent every 10 minutes for monitoring.</li>
+                    <li>Google Maps Integration: Coordinates displayed on Google Maps for route visualization.</li>
+                    <li>Distance Calculation: Calculates distance covered based on coordinates.</li>
+                  </ul>
+                  <strong>Technologies Used:</strong>
+                  <ul>
+                    <li><u>IoT Tracker:</u> For GPS tracking and data transmission</li>
+                    <li><u>ESP32:</u> Provides Wi-Fi connectivity</li>
+                    <li>Wiring: Ensures connectivity between components</li>
+                  </ul>
+                  This IoT solution enhances vehicle monitoring and fleet management.
+                </div>
+              }
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={chatify}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-                          
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-            
-              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-            
-              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              
-            
+              title="E-Transport System"
+              description={
+                <div>
+                  The E-Transport System manages an organization's fleet with features for vehicle records, driver registrations, vehicle assignments, and bookings. It includes real-time tracking via GPS.
+                  <br />
+                  <br />
+                  <strong>Technologies Used:</strong>
+                  <ul>
+                    <li><u>Frontend:</u> HTML, CSS, JavaScript</li>
+                    <li><u>Backend:</u> PHP</li>
+                    <li>Database: MySQL (via XAMPP)</li>
+                  </ul>
+                  The system streamlines vehicle management and enhances operational control.
+                </div>
+              }
             />
           </Col>
         </Row>
