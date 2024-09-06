@@ -29,7 +29,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to make a difference and solve problems in the field of technology!"
           </p>
-          <footer className="blockquote-footer">Gaffer</footer>
+          <footer className="blockquote-footer"></footer>
         </blockquote>
       </Card.Body>
     </Card>
