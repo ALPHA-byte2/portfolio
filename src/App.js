@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
 import Navbar from "./components/Navbar";
@@ -39,7 +40,7 @@ function App() {
           <Route path="/project" element={<Projects />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
-          
+          <Analytics />
         </Routes>
         <Footer />
       </div>
